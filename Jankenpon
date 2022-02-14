@@ -9,4 +9,4 @@ if (e==1 and l==1) or (e==2 and l==2) or (e==3 and l==3):
 elif (e==0 and l==2) or (e==1 and l==0) or (e==2 and l==1):
     print('Eu escolhi {}! Voce ganhou, que sorte em' .format(lista[l]))
 else:
-    print('Eu escolhi {}! Voce perdeu kkkkkkk otario' .format(lista[l]))
+    print('Eu escolhi {}! Voce perdeu!' .format(lista[l]))
