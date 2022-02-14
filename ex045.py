@@ -1,0 +1,12 @@
+import random
+print('JOKEMPO')
+e = int(input('Faça uma escolha: \nPedra[1] \nPapel[2] \nTesoura[3]'))-1
+lista = ['Pedra', 'Papel', 'Tesoura']
+l = (random.randint(0, 2))
+print(l)
+if (e==1 and l==1) or (e==2 and l==2) or (e==3 and l==3):
+    print('Eu escolhi {}! Deu empate!' .format(lista[l]))
+elif (e==0 and l==2) or (e==1 and l==0) or (e==2 and l==1):
+    print('Eu escolhi {}! Voce ganhou, que sorte em' .format(lista[l]))
+else:
+    print('Eu escolhi {}! Voce perdeu kkkkkkk otario' .format(lista[l]))
